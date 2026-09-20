@@ -1,4 +1,4 @@
-# joska
+# Word vectors and diagnostic terms in Hungarian
 
 Does a diagnostic term like "depresszió" still read as clinical language, or has
 it bled into everyday speech the way "depressing" has in English ("the weather
