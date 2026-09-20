@@ -1,0 +1,100 @@
+word_type	word_subtype	word	dual_category
+Clinical anchor	Course, prognosis, mechanism	terápiarezisztens	False
+Clinical anchor	Course, prognosis, mechanism	dekompenzált	False
+Clinical anchor	Course, prognosis, mechanism	gyógyszerrezisztens	False
+Clinical anchor	Course, prognosis, mechanism	prodromális	False
+Clinical anchor	Course, prognosis, mechanism	benignus	False
+Clinical anchor	Course, prognosis, mechanism	malignus	False
+Clinical anchor	Course, prognosis, mechanism	komorbid	False
+Clinical anchor	Course, prognosis, mechanism	iatrogén	False
+Clinical anchor	Course, prognosis, mechanism	idiopátiás	False
+Clinical anchor	Course, prognosis, mechanism	multifaktoriális	False
+Clinical anchor	Course, prognosis, mechanism	neurodegeneratív	False
+Clinical anchor	Diagnostic and procedural descriptors	patológiás	False
+Clinical anchor	Diagnostic and procedural descriptors	szubklinikai	False
+Clinical anchor	Diagnostic and procedural descriptors	aszimptomatikus	False
+Clinical anchor	Diagnostic and procedural descriptors	kontraindikált	False
+Clinical anchor	Diagnostic and procedural descriptors	szisztémás	False
+Clinical anchor	Diagnostic and procedural descriptors	juvenilis	False
+Clinical anchor	Diagnostic and procedural descriptors	posztoperatív	False
+Pejorative colloquial anchor	Core	rossz	False
+Pejorative colloquial anchor	Core	szörnyű	False
+Pejorative colloquial anchor	Core	borzasztó	False
+Pejorative colloquial anchor	Core	borzalmas	False
+Pejorative colloquial anchor	Core	iszonyú	False
+Pejorative colloquial anchor	Core	rettenetes	False
+Pejorative colloquial anchor	Core	rémes	False
+Pejorative colloquial anchor	Core	förtelmes	False
+Pejorative colloquial anchor	Core	undorító	False
+Pejorative colloquial anchor	Core	csúnya	False
+Pejorative colloquial anchor	Core	kellemetlen	False
+Pejorative colloquial anchor	Core	kínos	False
+Pejorative colloquial anchor	Core	fájdalmas	False
+Pejorative colloquial anchor	Core	fárasztó	False
+Pejorative colloquial anchor	Core	idegesítő	False
+Pejorative colloquial anchor	Core	bosszantó	False
+Pejorative colloquial anchor	Core	unalmas	False
+Pejorative colloquial anchor	Core	szomorú	False
+Pejorative colloquial anchor	Core	csüggesztő	False
+Pejorative colloquial anchor	Core	siralmas	False
+Pejorative colloquial anchor	Core	ijesztő	False
+Pejorative colloquial anchor	Core	félelmetes	False
+Pejorative colloquial anchor	Core	ideges	False
+Pejorative colloquial anchor	Core	feszült	False
+Neutral/positive colloquial anchor	Core	jó	False
+Neutral/positive colloquial anchor	Core	remek	False
+Neutral/positive colloquial anchor	Core	nagyszerű	False
+Neutral/positive colloquial anchor	Core	kiváló	False
+Neutral/positive colloquial anchor	Core	kitűnő	False
+Neutral/positive colloquial anchor	Core	príma	False
+Neutral/positive colloquial anchor	Core	tökéletes	False
+Neutral/positive colloquial anchor	Core	pazar	False
+Neutral/positive colloquial anchor	Core	pompás	False
+Neutral/positive colloquial anchor	Core	kellemes	False
+Neutral/positive colloquial anchor	Core	élvezetes	False
+Neutral/positive colloquial anchor	Core	kedves	False
+Neutral/positive colloquial anchor	Core	aranyos	False
+Neutral/positive colloquial anchor	Core	szép	False
+Neutral/positive colloquial anchor	Core	csodás	False
+Neutral/positive colloquial anchor	Core	csodálatos	False
+Neutral/positive colloquial anchor	Core	fantasztikus	False
+Neutral/positive colloquial anchor	Core	isteni	False
+Neutral/positive colloquial anchor	Core	mennyei	False
+Neutral/positive colloquial anchor	Core	boldog	False
+Neutral/positive colloquial anchor	Core	vidám	False
+Neutral/positive colloquial anchor	Core	jókedvű	False
+Neutral/positive colloquial anchor	Core	elégedett	False
+Neutral/positive colloquial anchor	Core	nyugodt	False
+Neutral/positive colloquial anchor	Core	békés	True
+Target words	Depression	depressziós	False
+Target words	Depression	depresszív	False
+Target words	Trauma	traumás	True
+Target words	Trauma	traumatizált	False
+Target words	Panic and phobia	fóbiás	True
+Target words	Hysteria, mania, paranoia	hisztis	False
+Target words	Hysteria, mania, paranoia	mániás	False
+Target words	Hysteria, mania, paranoia	paranoiás	True
+Target words	Neurosis and compulsion	neurotikus	False
+Target words	Neurosis and compulsion	kényszeres	False
+Target words	Neurosis and compulsion	megszállott	True
+Target words	Neurodevelopmental	autista	True
+Target words	Neurodevelopmental	hiperaktív	False
+Target words	Psychotic spectrum	szkizofrén	True
+Target words	Psychotic spectrum	pszichotikus	False
+Target words	Addiction and dependency	addikt	True
+Target words	Addiction and dependency	függő	False
+Target words	Mood disorder	bipoláris	False
+Target words	Contemporary loanwords	toxikus	False
+Target words	Insanity and madness	bolond	True
+Target words	Insanity and madness	őrült	False
+Target words	Insanity and madness	tébolyult	False
+Target words	Insanity and madness	elmebeteg	True
+Target words	Insanity and madness	dilis	False
+Target words	Insanity and madness	hibbant	False
+Target words	Insanity and madness	zakkant	True
+Target words	Insanity and madness	flúgos	False
+Target words	Insanity and madness	eszelős	False
+Target words	Insanity and madness	habókos	False
+Target words	Insanity and madness	ütődött	False
+Target words	Insanity and madness	abnormális	False
+Target words	Insanity and madness	beszámíthatatlan	False

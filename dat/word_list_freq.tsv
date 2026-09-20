@@ -1,0 +1,100 @@
+word_type	word_subtype	word	dual_category	lemma_freq	llfpm10	freq_bin
+Clinical anchor	Course, prognosis, mechanism	benignus	False	2674.0	0.4941765184680077	7
+Clinical anchor	Course, prognosis, mechanism	dekompenzált	False	442.0	-0.28756261510886594	2
+Clinical anchor	Course, prognosis, mechanism	gyógyszerrezisztens	False	451.0	-0.2788083425799973	2
+Clinical anchor	Course, prognosis, mechanism	iatrogén	False	814.0	-0.02236047956875661	4
+Clinical anchor	Course, prognosis, mechanism	idiopátiás	False	1143.0	0.12506134593732388	5
+Clinical anchor	Course, prognosis, mechanism	komorbid	False	655.0	-0.1167435844661748	3
+Clinical anchor	Course, prognosis, mechanism	malignus	False	8363.0	0.9893772123268322	9
+Clinical anchor	Course, prognosis, mechanism	multifaktoriális	False	1317.0	0.18660089050382597	6
+Clinical anchor	Course, prognosis, mechanism	neurodegeneratív	False	2409.0	0.4488519155403856	7
+Clinical anchor	Course, prognosis, mechanism	prodromális	False	185.0	-0.6658131560549441	1
+Clinical anchor	Course, prognosis, mechanism	terápiarezisztens	False	658.0	-0.11475899084400232	4
+Clinical anchor	Diagnostic and procedural descriptors	aszimptomatikus	False	187.0	-0.6611432779214589	1
+Clinical anchor	Diagnostic and procedural descriptors	juvenilis	False	1804.0	0.3232516487479651	6
+Clinical anchor	Diagnostic and procedural descriptors	kontraindikált	False	477.0	-0.2544665054178439	3
+Clinical anchor	Diagnostic and procedural descriptors	patológiás	False	6849.0	0.9026422817519398	8
+Clinical anchor	Diagnostic and procedural descriptors	posztoperatív	False	4058.0	0.6753271582393694	8
+Clinical anchor	Diagnostic and procedural descriptors	szisztémás	False	17285.0	1.3046844994204678	10
+Clinical anchor	Diagnostic and procedural descriptors	szubklinikai	False	1169.0	0.1348296267038823	5
+Neutral/positive colloquial anchor	Core	aranyos	False	194072.0	2.3549779970269067	3
+Neutral/positive colloquial anchor	Core	boldog	False	1078232.0	3.0997273323104837	7
+Neutral/positive colloquial anchor	Core	békés	True	478840.0	2.747205537672569	5
+Neutral/positive colloquial anchor	Core	csodálatos	False	710988.0	2.918877386345279	6
+Neutral/positive colloquial anchor	Core	csodás	False	306215.0	2.5530415764231313	3
+Neutral/positive colloquial anchor	Core	elégedett	False	461130.0	2.730838492826806	5
+Neutral/positive colloquial anchor	Core	fantasztikus	False	427267.0	2.6977144668863993	4
+Neutral/positive colloquial anchor	Core	isteni	False	409384.0	2.6791459806211004	4
+Neutral/positive colloquial anchor	Core	jó	False	24645525.0	4.458753189490464	10
+Neutral/positive colloquial anchor	Core	jókedvű	False	44156.0	1.7120048402131642	1
+Neutral/positive colloquial anchor	Core	kedves	False	2335176.0	3.435334734040873	9
+Neutral/positive colloquial anchor	Core	kellemes	False	1038359.0	3.0833626470541016	7
+Neutral/positive colloquial anchor	Core	kitűnő	False	407282.0	2.676910332224121	4
+Neutral/positive colloquial anchor	Core	kiváló	False	1854362.0	3.3352096345932902	8
+Neutral/positive colloquial anchor	Core	mennyei	False	151013.0	2.2460294508169754	2
+Neutral/positive colloquial anchor	Core	nagyszerű	False	590275.0	2.838069505417538	5
+Neutral/positive colloquial anchor	Core	nyugodt	False	897201.0	3.019904864508077	6
+Neutral/positive colloquial anchor	Core	pazar	False	65047.0	1.880242387023966	1
+Neutral/positive colloquial anchor	Core	pompás	False	96998.0	2.0537778951905707	2
+Neutral/positive colloquial anchor	Core	príma	False	18064.0	1.323829040122935	1
+Neutral/positive colloquial anchor	Core	remek	False	1171360.0	3.1357055050513973	8
+Neutral/positive colloquial anchor	Core	szép	False	4831936.0	3.7511362888722295	10
+Neutral/positive colloquial anchor	Core	tökéletes	False	2037570.0	3.376127653244376	9
+Neutral/positive colloquial anchor	Core	vidám	False	402638.0	2.6719298756911067	3
+Neutral/positive colloquial anchor	Core	élvezetes	False	129338.0	2.17874125655333	2
+Pejorative colloquial anchor	Core	borzalmas	False	108279.0	2.101559351775278	4
+Pejorative colloquial anchor	Core	borzasztó	False	141016.0	2.216283507044849	6
+Pejorative colloquial anchor	Core	bosszantó	False	57384.0	1.825805933369423	2
+Pejorative colloquial anchor	Core	csúnya	False	202124.0	2.3726329998081077	7
+Pejorative colloquial anchor	Core	csüggesztő	False	1146.0	0.12619973317341338	1
+Pejorative colloquial anchor	Core	feszült	False	93725.0	2.0388705646356304	4
+Pejorative colloquial anchor	Core	fájdalmas	False	222222.0	2.4138021674719994	8
+Pejorative colloquial anchor	Core	fárasztó	False	91901.0	2.030335352631299	3
+Pejorative colloquial anchor	Core	félelmetes	False	141795.0	2.2186760324913855	6
+Pejorative colloquial anchor	Core	förtelmes	False	8748.0	1.0089238899076416	1
+Pejorative colloquial anchor	Core	ideges	False	111952.0	2.1160469721101074	5
+Pejorative colloquial anchor	Core	idegesítő	False	78387.0	1.9612591591397237	3
+Pejorative colloquial anchor	Core	ijesztő	False	111546.0	2.114469116795027	4
+Pejorative colloquial anchor	Core	iszonyú	False	76296.0	1.949516885168421	3
+Pejorative colloquial anchor	Core	kellemetlen	False	390815.0	2.6589863397090716	9
+Pejorative colloquial anchor	Core	kínos	False	129761.0	2.180159299301913	5
+Pejorative colloquial anchor	Core	rettenetes	False	142404.0	2.220537303954744	7
+Pejorative colloquial anchor	Core	rossz	False	3359081.0	3.5932355919734342	10
+Pejorative colloquial anchor	Core	rémes	False	31497.0	1.5652843059826993	2
+Pejorative colloquial anchor	Core	siralmas	False	28141.0	1.5163546417170095	1
+Pejorative colloquial anchor	Core	szomorú	False	415845.0	2.6859465995616065	10
+Pejorative colloquial anchor	Core	szörnyű	False	210758.0	2.390799184200218	8
+Pejorative colloquial anchor	Core	unalmas	False	245857.0	2.4576976935051955	9
+Pejorative colloquial anchor	Core	undorító	False	49103.0	1.758123142158786	2
+Target words	Addiction and dependency	addikt	True	624.0	-0.13780029477553385	1
+Target words	Addiction and dependency	függő	False	717965.0	2.92311838892451	10
+Target words	Contemporary loanwords	toxikus	False	35778.0	1.620631175271425	8
+Target words	Depression	depressziós	False	55483.0	1.8111750511484304	9
+Target words	Depression	depresszív	False	12524.0	1.1647581744869198	6
+Target words	Hysteria, mania, paranoia	hisztis	False	14725.0	1.2350704190011814	7
+Target words	Hysteria, mania, paranoia	mániás	False	11943.0	1.1441285478458023	6
+Target words	Hysteria, mania, paranoia	paranoiás	True	7761.0	0.956932798978248	5
+Target words	Insanity and madness	abnormális	False	17703.0	1.3150619849007037	7
+Target words	Insanity and madness	beszámíthatatlan	False	1684.0	0.29335720270567284	2
+Target words	Insanity and madness	bolond	True	108557.0	2.1026729485223123	10
+Target words	Insanity and madness	dilis	False	5133.0	0.7773863798028049	4
+Target words	Insanity and madness	elmebeteg	True	30615.0	1.5529493793137938	8
+Target words	Insanity and madness	eszelős	False	11685.0	1.134643832270288	5
+Target words	Insanity and madness	flúgos	False	3176.0	0.5688956092971008	3
+Target words	Insanity and madness	habókos	False	1682.0	0.29284110700393556	2
+Target words	Insanity and madness	hibbant	False	3530.0	0.6147898209298648	3
+Target words	Insanity and madness	tébolyult	False	4098.0	0.6795870696072184	3
+Target words	Insanity and madness	zakkant	True	1057.0	0.0910901028494684	1
+Target words	Insanity and madness	ütődött	False	571.0	-0.1763487762121098	1
+Target words	Insanity and madness	őrült	False	158527.0	2.267118356558806	10
+Target words	Mood disorder	bipoláris	False	13388.0	1.1937308192277818	6
+Target words	Neurodevelopmental	autista	True	57717.0	1.8283188648986064	9
+Target words	Neurodevelopmental	hiperaktív	False	14740.0	1.2355125990650748	7
+Target words	Neurosis and compulsion	kényszeres	False	22891.0	1.426679880911894	8
+Target words	Neurosis and compulsion	megszállott	True	57857.0	1.829371026409076	9
+Target words	Neurosis and compulsion	neurotikus	False	10350.0	1.0819554653349788	5
+Target words	Panic and phobia	fóbiás	True	2728.0	0.5028594815264835	2
+Target words	Psychotic spectrum	pszichotikus	False	6997.0	0.9119269894541828	4
+Target words	Psychotic spectrum	szkizofrén	True	1352.0	0.1979918071476593	1
+Target words	Trauma	traumatizált	False	2380.0	0.4435920725985541	2
+Target words	Trauma	traumás	True	5628.0	0.8173692043047502	4

@@ -1,0 +1,70 @@
+Four word lists: three anchors (clinical, pejorative colloquial, neutral/positive colloquial) and one target list. Previously the two colloquial anchors were subtypes ("Positive, core" / "Negative, core") nested under one "Colloquial anchor" word_type, used only to build an orthogonalised second axis on top of the primary clinical-vs-colloquial register axis. Promoting them to full top-level anchors makes the three-way comparison the primary structure of the analysis instead of a bolt-on: every target word is now read as "closer to clinical, closer to pejorative-colloquial, or closer to neutral/positive-colloquial" directly, rather than as a register score plus a secondary valence correction. See the limitations note at the end before treating "pejorative colloquial anchor" as a validated instrument for detecting slur-style pejoration specifically -- it isn't one, it's a general-negative-sentiment anchor being used as a proxy, and that gap matters.
+
+(i) Clinical anchor: technical/diagnostic ADJECTIVES with no documented lay double meaning. Adjective-only by design: an earlier version mixed nouns and adjectives, which was itself a confound (see "Also considered and rejected" below and README's version history). Exotic vocabulary is fine here, it only lowers the risk of a colloquial double life.
+
+Course, prognosis, mechanism
+terápiarezisztens, dekompenzált, gyógyszerrezisztens, prodromális, benignus, malignus, komorbid, iatrogén, idiopátiás, multifaktoriális, neurodegeneratív
+
+Diagnostic and procedural descriptors
+patológiás, szubklinikai, aszimptomatikus, kontraindikált, szisztémás, juvenilis, posztoperatív
+
+Corpus-flagged dual-category or off-target words (see asterisk key below): idiopátiás*, multifaktoriális*, benignus*, malignus*, szisztémás*
+
+(ii) Pejorative colloquial anchor: everyday negative-affect adjectives, standing in for "words used to put someone down" -- see the limitations note at the end for why that's an imperfect proxy. Same word list as the previous iteration's "Colloquial anchor / Negative, core" subtype, promoted to a full anchor.
+
+Core
+rossz, szörnyű, borzasztó, borzalmas, iszonyú, rettenetes, rémes, förtelmes, undorító, csúnya, kellemetlen, kínos, fájdalmas, fárasztó, idegesítő, bosszantó, unalmas, szomorú, csüggesztő, siralmas, ijesztő, félelmetes, ideges, feszült
+
+(iii) Neutral/positive colloquial anchor: everyday positive-to-neutral affect adjectives, standing in for "words used to describe something without insult." Same word list as the previous iteration's "Colloquial anchor / Positive, core" subtype, promoted to a full anchor.
+
+Core
+jó, remek, nagyszerű, kiváló, kitűnő, príma, tökéletes, pazar, pompás, kellemes, élvezetes, kedves, aranyos, szép, csodás, csodálatos, fantasztikus, isteni, mennyei, boldog, vidám, jókedvű, elégedett, nyugodt, békés*
+
+Excluded on purpose (both colloquial anchors): súlyos (dual colloquial/clinical register); fél (homonym with "half", dropped after scoring as an isolated weak anchor point in an earlier run).
+
+(iv) Target words: diagnostic ADJECTIVES with documented informal/bleached use, plus one family built specifically to span the full register range. Nouns and verbs dropped from every family's underlying concept (depresszió, trauma, pánik, pánikroham, fóbia, hisztéria, mánia, paranoia, neurózis, autizmus, ADHD, szkizofrénia, pszichózis, addikció, függőség, pánikol, traumatizál, trigger, triggerel, retraumatizál) -- keeping only the adjective/participle form. Grouped by family so small-multiple charts have a natural facet.
+
+Depression
+depressziós, depresszív
+
+Trauma
+traumás*, traumatizált
+
+Panic and phobia
+fóbiás*
+
+Hysteria, mania, paranoia
+hisztis, mániás, paranoiás*
+
+Neurosis and compulsion
+neurotikus, kényszeres, megszállott*
+
+Neurodevelopmental
+autista*, hiperaktív
+
+Psychotic spectrum
+szkizofrén*, pszichotikus
+
+Addiction and dependency
+addikt*, függő
+
+Mood disorder
+bipoláris
+
+Contemporary loanwords
+toxikus
+
+Insanity and madness (built to span the full register range in one semantic field, from clinical/legal register through literary to plain slang, without needing noun/adjective derivational pairs to do it)
+bolond*, őrült, tébolyult, elmebeteg*, dilis, hibbant, zakkant*, flúgos, eszelős, habókos, ütődött, abnormális, beszámíthatatlan
+
+Asterisk key: flagged word's corpus xpostag data (Github/Webcorpus2FrequencyList/frequencies.parquet) shows it split across two part-of-speech categories at less than roughly 2.5:1, i.e. it's a genuinely dual-category word in actual usage, not just in principle the way any Hungarian adjective can nominalise. Exact ratios (top category : second category): traumás 2.1:1 (adj:noun), zakkant 2.3:1 (adj:noun), elmebeteg 2.6:1 (noun:adj -- rounds in on the loose side of the cutoff, kept because it's a well-known dual-category word), békés 1.7:1 (adj:noun), fóbiás 1.6:1 (adj:noun), paranoiás 1.7:1 (adj:noun), megszállott 1.7:1 (adj:noun), autista 1.15:1 (noun:adj -- close to a coin flip), addikt 1.9:1 (noun:adj), bolond 1.1:1 (adj:noun -- close to a coin flip), idiopátiás 1.1:1 (adj:noun -- close to a coin flip), szisztémás 1.6:1 (adj:noun).
+
+Two words need a stronger note than an asterisk, not just "dual-category":
+- szkizofrén is 100% noun-tagged in the corpus (zero adjective tags found at all), despite "szkizofrén viselkedés"-style adjectival use existing in casual speech. Kept in the target list since it's central to the pejoration question, but its inclusion in an "adjectives only" design is really "a word I intend adjectivally that the corpus only ever sees as a noun."
+- malignus and multifaktoriális are corpus-tagged predominantly as nouns (65:1 and 29:1) despite being genuine, common technical adjectives ("malignus daganat", "multifaktoriális etiológia") by any Hungarian speaker's judgment. This looks like a lemmatiser quirk for short Latin-suffix loanwords rather than a real dual-category word, but it means the corpus disagrees with the intended part of speech more strongly than any asterisked word above.
+
+Also considered and rejected:
+- refrakter as a clinical adjective ("treatment-refractory") -- corpus data shows it's used almost exclusively (913:1) as an unrelated industrial noun (a refractory/heat-resistant material), a false friend with the medical sense. Replaced with gyógyszerrezisztens (drug-resistant, transparent compound, cleanly adjectival at 4:1).
+- elmezavart ("mentally disturbed") for the insanity family -- appears exactly once in the entire frequency corpus, meaning it will almost certainly have no embedding at all (the w2v model's minimum count is 10). Dropped for lack of data rather than for meaning.
+
+Limitations of the "pejorative colloquial anchor" as named (read before citing anything built on it): the word list behind it is generic negative-affect vocabulary (rossz, szomorú, ijesztő -- "bad," "sad," "scary"), not slur-adjacent or insult-specific vocabulary. Calling it a "pejorative" anchor is a simplification for this project's purposes, not a validated instrument for detecting "used as a slur against a diagnostic identity" specifically. A target word landing close to this anchor shows it associates with general negative sentiment, which is necessary but not sufficient evidence for pejorative use in the narrower sense the original research question cared about (e.g. autista/szkizofrén as insult-adjacent). Treat any "X is used pejoratively" claim built on this anchor as provisional, and see HANDOVER.md for the specific case (autista, szkizofrén) where this gap already mattered: both stayed clinical-leaning and non-negative on this design, which could mean the pejoration concern was wrong, or could mean this anchor simply isn't scoped to detect that particular mechanism.

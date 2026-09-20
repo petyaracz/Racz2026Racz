@@ -1,0 +1,16 @@
+.claude
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# R
+.Rhistory
+.Rproj.user/
+.RData
