@@ -1,5 +1,7 @@
 # Word vectors and diagnostic terms in Hungarian
 
+[![DOI](https://zenodo.org/badge/1378621103.svg)](https://doi.org/10.5281/zenodo.22862494)
+
 Does a diagnostic term like "depresszió" still read as clinical language, or has
 it bled into everyday speech the way "depressing" has in English ("the weather
 today is super depressive")? This project tests that with Hungarian word
